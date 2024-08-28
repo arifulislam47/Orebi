@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+  position: relative;
+}
+.swiper .swiper-pagination-bullets {
+  position: absolute;
+  top: 0;
+  left: 14%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+}
+
+.swiper-pagination-bullets span {
+  width: 2px;
+  position: relative;
+  height: 30px;
+  border-radius: 0;
+  background: white;
+  color: white;
+}
+
+.swiper-pagination-bullet-active {
+  color: black !important;
+  background: #141414 !important;
+}
